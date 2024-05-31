@@ -1,0 +1,14 @@
+API - Application programming Interface
+Application - any software with a distinct function
+interface - contact of service between two applications
+api is the documentation contains info for developers to structure those request and responses
+examples of API:
+1.Geolocation api
+2.drag&drop api 
+3.files api - get info about size we have choosen
+4.web Storage api-stores data locally in the user computer
+5.web workers api-allows application to run scripts in background without manipulating user interface
+6.websockets.api-real time communication b/w browsers and servers
+7.Canvas api- rendering 2d shapes bitmap images
+8.Audio and video api - play and manipulate video and audio files
+9.WebRTC api - real time communication b/w browers include video chat and file sharing

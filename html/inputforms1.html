@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Fields</title>
+</head>
+<body>
+    <form>
+        <label name="fname">First Name</label>&nbsp;&nbsp;&nbsp;
+        <input type="text" name="fname" /><br><br>
+        <label name="lname">Last name</label>
+        <input type="text" name="lname"/><br><br>
+        <label for="userpassword">Passwoed</label>
+        <input type="password" name="userpassword"/><br><br>
+        <input type="submit" value="Signup"/>
+        <input type="reset" value="Reset Data"/>
+        <br><br><br><br><br><br>
+        <p>What is your gender ?</p>
+        <!--Different name for radio then it can check both options-->
+        <input type="radio"name="gender" value="Male"/>
+        <label>Male</label>
+        <input type="radio"name="gender" value="Female"/>
+        <label>Female</label>
+        <p>Whats your hobby ?</p>
+        <input type="checkbox" name="hobby" value="Reading">
+        <label>Reading</label>
+        <input type="checkbox" name="hobby" value="Travelling">
+        <label>Travelling</label>
+        <input type="checkbox" name="hobby" value="watching">
+        <label>Watching</label>
+        <input type="checkbox" name="hobby" value="sleeping">
+        <label>sleeping</label><br><br>
+        <input type="button" value="Click Me" onclick="alert('some task is done')">
+        <input type="color" name="color" value="#020546">
+        <input type="date" name="dob" max="2027-07-04" min="2024-05-29" value="2024-05-30">
+        <input type="file" name="file" accept=".pdf,img-fluid" />
+        <input type="month" min="2024-05"/><br><br>
+        <input type="time" value="12:00:00"/><br>
+        <h3>Date and time together</h3>
+        <input type="datetime-local" value="2024-05-29T12:00:00"/>
+        <h3>Week</h3>
+        <input type="week" value="2024-w10"/>
+        <h3>Number</h3>
+        <input type="number" value="1" min="0" max="9999"step="2"/>
+        <h3>Range</h3>
+        <input type="range" value="10" min="4" max="20"/>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width : 100%;
+            border-collapse:collapse ;
+        }
+        th,td{
+            color: black;
+            text-align: center;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        td{
+            border: 2px solid blueviolet;
+        }
+        tr{
+            border: 1px;
+        }
+        thead{
+            background-color: orange;
+        }
+        table#alter tbody tr:nth-child(odd){
+            background-color: rgb(38, 211, 125);
+        }
+        table#alter tbody tr:nth-child(even){
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <caption >My Table</caption>
+    <table id="alter">
+        <thead>
+        <tr>
+            <th>col 1</th>
+            <th>Col 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td colspan="2">4</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
